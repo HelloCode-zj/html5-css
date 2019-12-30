@@ -1,0 +1,81 @@
+@font-face {
+  font-family: JDZhengHT-EN-Bold;
+  src: url(https://wq.360buyimg.com/data/ppms/others/JDZhengHei_01_Bold.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+  -webkit-tap-highlight-color: transparent;
+}
+a:hover {
+  color: #666666;
+}
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+body {
+  color: #666;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei', Helvetica, sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+img {
+  border: none;
+}
+strong,
+b {
+  font-weight: normal;
+}
+em,
+i {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
